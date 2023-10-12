@@ -17,6 +17,13 @@ The transfer_learning.ipynb implements 4 pretrained CNN architectures --- ResNet
 
 The app.ipynb implements an application which shows the top 5 classes that the ensemble model thinks are the most relevant for the picture a user has uploaded on the application.
 
+The src folder contains all the necessary python files for data loading, CNN architecture from scratch, the transfer models etc.
+
+
 ### Dataset Info
 
 The landmark images are a subset of the Google Landmarks Dataset v2.
+
+### Credits
+
+This project is a part of the Udacity ML Fundamentals Nanodegree program, which I received as part of the AWS AI-ML Scholarship 2022-23.
