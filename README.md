@@ -9,6 +9,14 @@ Photo sharing and photo storage services like to have location data for each pho
 
 If no location metadata for an image is available, one way to infer the location is to detect and classify a discernable landmark in the image. Given the large number of landmarks across the world and the immense volume of images that are uploaded to photo sharing services, using human judgement to classify these landmarks would not be feasible.
 
+### Method
+
+The cnn_from_scratch.ipynb implements a CNN architecture from scratch that achieves a classification accuracy of 59%.
+
+The transfer_learning.ipynb implements 4 pretrained CNN architectures --- ResNet18, VGG16, EfficientNetb0 and MobileNetV2, which achieves a test accuracy of 73%, 68%, 72% and 72% respectively. Thereafter, a weighted sum ensemble is implemented using these 4 base learners that achieved a test accuracy of 81.6% . The optimised weights corresponding to each base learner was obtained by running a grid search algorithm.
+
+The app.ipynb implements an application which shows the top 5 classes that the ensemble model thinks are the most relevant for the picture a user has uploaded on the application.
+
 ### Dataset Info
 
 The landmark images are a subset of the Google Landmarks Dataset v2.
