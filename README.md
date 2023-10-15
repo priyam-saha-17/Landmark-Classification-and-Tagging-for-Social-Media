@@ -27,10 +27,10 @@ The landmark images are a subset of the Google Landmarks Dataset v2.
 ### APP Input/Output
 
 Say an image of the famous landmark Machu Pichu, Peru is uploaded to the application. 
-![Input Image](Machu%20Picchu%20-%20Input.jpg)
+![Input Image](Machu Picchu - Input.jpg)
 
 Upon, running the app.ipynb, the following output is obtained:
-![Output Image](Machu%20Pichu%20-%20Model%20Prediction.png)
+![Output Image](Machu Pichu - Model Prediction.png)
 
 ### Credits
 
