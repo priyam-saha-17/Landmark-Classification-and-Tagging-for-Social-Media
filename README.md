@@ -24,6 +24,14 @@ The src folder contains all the necessary python files for data loading, CNN arc
 
 The landmark images are a subset of the Google Landmarks Dataset v2.
 
+### APP Input/Output
+
+Say an image of the famous landmark Machu Pichu, Peru is uploaded to the application. 
+![Input Image](Machu%20Picchu%20-%20Input.jpg)
+
+Upon, running the app.ipynb, the following output is obtained:
+![Output Image](Machu%20Pichu%20-%20Model%20Prediction.png)
+
 ### Credits
 
 This project is a part of the Udacity ML Fundamentals Nanodegree program, which I received as part of the AWS AI-ML Scholarship 2022-23.
